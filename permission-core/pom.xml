@@ -47,7 +47,6 @@
             <artifactId>fastjson</artifactId>
         </dependency>
 
-
         <!--database-->
         <dependency>
             <groupId>mysql</groupId>
@@ -60,6 +59,12 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+
+        <!--redis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
     </dependencies>
 

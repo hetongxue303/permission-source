@@ -9,3 +9,4 @@ spring:
       - application-log.yml
       - application-mybatisPlus.yml
       - application-datasource.yml
+      - application-redis.yml
