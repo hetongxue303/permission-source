@@ -3,3 +3,9 @@ server:
 spring:
   application:
     name: permission
+  config:
+    import:
+      - application-web.yml
+      - application-log.yml
+      - application-mybatisPlus.yml
+      - application-datasource.yml
